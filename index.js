@@ -8,7 +8,7 @@ const app = express();
 app.use(express.json())
 
 // Connect to MongoDB database
-mongoose.connect('mongodb+srv://Deadpool:Deadpool@cluster0.skrk7kj.mongodb.net/?retryWrites=true&w=majority', { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect('mongodb+srv://agroinformatics:agroinformatics@agroinformatics.rmo37ed.mongodb.net/?retryWrites=true&w=majority', { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => console.log('Connected to MongoDB'))
   .catch(error => console.error(error));
 

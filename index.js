@@ -9,7 +9,7 @@ app.use(express.json())
 
 // Connect to MongoDB database
 // mongodb+srv://agroinformatics:agroinformatics@agroinformatics.rmo37ed.mongodb.net/?retryWrites=true&w=majority
-mongoose.connect('mongodb+srv://agroinformatics:agroinformatics@agroinformatics.rmo37ed.mongodb.net/?retryWrites=true&w=majority', { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect('mongodb+srv://user:user123@user.acyk9eo.mongodb.net/?retryWrites=true&w=majority ', { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => console.log('Connected to MongoDB'))
   .catch(error => console.error(error));
 
